@@ -18,7 +18,8 @@
     "fast-glob": "^3.2.11",
     "fs-extra": "^10.1.0",
     "js-yaml": "^4.1.0",
-    "lz-string": "^1.4.4"
+    "lz-string": "^1.4.4",
+    "prettier": "^2.7.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",

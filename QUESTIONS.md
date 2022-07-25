@@ -1,10 +1,10 @@
 # Questions
 
-- [ ] easy - [awaited](questions/00189-easy-awaited/README.md)
-- [ ] easy - [concat](questions/00533-easy-concat/README.md)
-- [ ] easy - [exclude](questions/00043-easy-exclude/README.md)
-- [ ] easy - [first](questions/00014-easy-first/README.md)
-- [ ] easy - [if](questions/00268-easy-if/README.md)
+- [x] easy - [awaited](questions/00189-easy-awaited/README.md)
+- [x] easy - [concat](questions/00533-easy-concat/README.md)
+- [x] easy - [exclude](questions/00043-easy-exclude/README.md)
+- [x] easy - [first](questions/00014-easy-first/README.md)
+- [x] easy - [if](questions/00268-easy-if/README.md)
 - [ ] easy - [includes](questions/00898-easy-includes/README.md)
 - [ ] easy - [parameters](questions/03312-easy-parameters/README.md)
 - [ ] easy - [pick](questions/00004-easy-pick/README.md)
