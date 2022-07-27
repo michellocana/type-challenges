@@ -4,6 +4,12 @@ const foo = (arg1: string, arg2: number): void => {}
 const bar = (arg1: boolean, arg2: { a: 'A' }): void => {}
 const baz = (): void => {}
 
+type ValidFunction = (...args: any[]) => any
+
+type MyParameters<T extends ValidFunction> = T extends (...args: infer P) => any
+  ? P
+  : never
+
 type cases = [
   Expect<Equal<MyParameters<typeof foo>, [string, number]>>,
   Expect<Equal<MyParameters<typeof bar>, [boolean, { a: 'A' }]>>,

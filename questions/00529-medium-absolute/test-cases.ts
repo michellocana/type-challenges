@@ -1,5 +1,8 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 
+type StringLike = string | number | bigint | boolean | null | undefined
+type Absolute<T extends StringLike> = `${T}` extends `-${infer U}` ? U : `${T}`
+
 type cases = [
   Expect<Equal<Absolute<0>, '0'>>,
   Expect<Equal<Absolute<-0>, '0'>>,
