@@ -9,7 +9,7 @@
 - [ ] easy - [parameters](questions/03312-easy-parameters/README.md)
 - [ ] easy - [pick](questions/00004-easy-pick/README.md)
 - [ ] easy - [push](questions/03057-easy-push/README.md)
-- [ ] easy - [readonly](questions/00007-easy-readonly/README.md)
+- [x] easy - [readonly](questions/00007-easy-readonly/README.md)
 - [ ] easy - [tuple-length](questions/00018-easy-tuple-length/README.md)
 - [ ] easy - [tuple-to-object](questions/00011-easy-tuple-to-object/README.md)
 - [ ] easy - [unshift](questions/03060-easy-unshift/README.md)

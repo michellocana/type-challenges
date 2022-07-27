@@ -1,5 +1,9 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 
+type Includes<T extends readonly any[], U > = {
+  [K in keyof T]: Equal<T[K], U>
+} extends false[] ? false : true
+
 type cases = [
   Expect<Equal<Includes<['Kars', 'Esidisi', 'Wamuu', 'Santana'], 'Kars'>, true>>,
   Expect<Equal<Includes<['Kars', 'Esidisi', 'Wamuu', 'Santana'], 'Dio'>, false>>,
