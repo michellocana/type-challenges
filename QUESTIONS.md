@@ -15,7 +15,7 @@
 - [x] easy - [tuple-to-object](questions/00011-easy-tuple-to-object/README.md)
 - [x] easy - [unshift](questions/03060-easy-unshift/README.md)
 - [x] medium - [absolute](questions/00529-medium-absolute/README.md)
-- [ ] medium - [anyof](questions/00949-medium-anyof/README.md)
+- [x] medium - [anyof](questions/00949-medium-anyof/README.md)
 - [ ] medium - [append-argument](questions/00191-medium-append-argument/README.md)
 - [ ] medium - [append-to-object](questions/00527-medium-append-to-object/README.md)
 - [ ] medium - [bem-style-string](questions/03326-medium-bem-style-string/README.md)
