@@ -1,5 +1,7 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 
+type AppendArgument<Fn, A> = Fn extends (...args: infer Args) => infer Return ? (...args: [...Args, A]) => Return : never
+
 type Case1 = AppendArgument<(a: number, b: string) => number, boolean>
 type Result1 = (a: number, b: string, x: boolean) => number
 
