@@ -17,7 +17,7 @@
 - [x] medium - [absolute](questions/00529-medium-absolute/README.md)
 - [x] medium - [anyof](questions/00949-medium-anyof/README.md)
 - [x] medium - [append-argument](questions/00191-medium-append-argument/README.md)
-- [ ] medium - [append-to-object](questions/00527-medium-append-to-object/README.md)
+- [x] medium - [append-to-object](questions/00527-medium-append-to-object/README.md)
 - [ ] medium - [bem-style-string](questions/03326-medium-bem-style-string/README.md)
 - [ ] medium - [capitalize](questions/00110-medium-capitalize/README.md)
 - [ ] medium - [chainable-options](questions/00012-medium-chainable-options/README.md)

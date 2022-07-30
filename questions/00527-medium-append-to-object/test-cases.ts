@@ -1,5 +1,9 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 
+type AppendToObject<T extends object, Key extends string, ValueType> = {
+  [K in (keyof T) | Key]: K extends keyof T ? T[K] : ValueType
+}
+
 type test1 = {
   key: 'cat'
   value: 'green'
