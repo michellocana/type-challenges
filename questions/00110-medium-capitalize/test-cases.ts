@@ -1,5 +1,7 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 
+type MyCapitalize<S extends string> = S extends `${infer FirstLetter}${infer Rest}` ? `${Uppercase<FirstLetter>}${Rest}` : ''
+
 type cases = [
   Expect<Equal<MyCapitalize<'foobar'>, 'Foobar'>>,
   Expect<Equal<MyCapitalize<'FOOBAR'>, 'FOOBAR'>>,
