@@ -21,7 +21,7 @@
 - [x] medium - [bem-style-string](questions/03326-medium-bem-style-string/README.md)
 - [x] medium - [capitalize](questions/00110-medium-capitalize/README.md)
 - [x] medium - [chainable-options](questions/00012-medium-chainable-options/README.md)
-- [ ] medium - [chunk](questions/04499-medium-chunk/README.md)
+- [x] medium - [chunk](questions/04499-medium-chunk/README.md)
 - [ ] medium - [combination](questions/08767-medium-combination/README.md)
 - [ ] medium - [construct-tuple](questions/07544-medium-construct-tuple/README.md)
 - [ ] medium - [deep-readonly](questions/00009-medium-deep-readonly/README.md)
