@@ -24,7 +24,7 @@
 - [x] medium - [chunk](questions/04499-medium-chunk/README.md)
 - [x] medium - [combination](questions/08767-medium-combination/README.md)
 - [x] medium - [construct-tuple](questions/07544-medium-construct-tuple/README.md)
-- [ ] medium - [deep-readonly](questions/00009-medium-deep-readonly/README.md)
+- [x] medium - [deep-readonly](questions/00009-medium-deep-readonly/README.md)
 - [ ] medium - [diff](questions/00645-medium-diff/README.md)
 - [ ] medium - [drop-char](questions/02070-medium-drop-char/README.md)
 - [ ] medium - [endswith](questions/02693-medium-endswith/README.md)
