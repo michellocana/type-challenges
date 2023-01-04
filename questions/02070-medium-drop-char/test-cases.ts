@@ -1,5 +1,7 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 
+type DropChar<S extends string, C extends string> = S extends `${infer Before}${C}${infer After}` ? DropChar<`${Before}${After}`, C> : S
+
 type cases = [
   // @ts-expect-error
   Expect<Equal<DropChar<'butter fly!', ''>, 'butterfly!'>>,
