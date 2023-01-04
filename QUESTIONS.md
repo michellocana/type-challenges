@@ -27,7 +27,7 @@
 - [x] medium - [deep-readonly](questions/00009-medium-deep-readonly/README.md)
 - [x] medium - [diff](questions/00645-medium-diff/README.md)
 - [x] medium - [drop-char](questions/02070-medium-drop-char/README.md)
-- [ ] medium - [endswith](questions/02693-medium-endswith/README.md)
+- [x] medium - [endswith](questions/02693-medium-endswith/README.md)
 - [ ] medium - [fibonacci-sequence](questions/04182-medium-fibonacci-sequence/README.md)
 - [ ] medium - [fill](questions/04518-medium-fill/README.md)
 - [ ] medium - [flatten](questions/00459-medium-flatten/README.md)
